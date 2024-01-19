@@ -7,4 +7,4 @@ resources:
 - ../../base
 images:
 - name: ongiv/argoCD_test
-  newTag: "70"
+  newTag: "71"
