@@ -1,5 +1,10 @@
-bases:
-- ../../base
 patchesStrategicMerge:
-  - deployment-patch.yaml
-  - service-patch.yaml
+- deployment-patch.yaml
+- service-patch.yaml
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- ../../base
+images:
+- name: ongiv/argoCD_test
+  newTag: "67"
