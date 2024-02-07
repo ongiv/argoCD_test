@@ -8,3 +8,5 @@ resources:
 images:
 - name: ongiv/argoCD_test
   newTag: "81"
+- name: ongiv/hello_jenkins
+  newTag: "141"
